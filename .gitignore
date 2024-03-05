@@ -1,6 +1,5 @@
 git_commands.ipynb
 .env
-*.csv
 InferSent/
 fasttext/
 encoder/
@@ -8,3 +7,4 @@ beto/
 beto-fine-tuning/
 __pycache__/
 models/
+results_*.csv

@@ -240,14 +240,53 @@
         "matthews_corrcoef": "0.5125718425647104"
     },
     "ensemble_voting": {
-        "precision": "0.5733333333333334",
-        "precision_weighted": "0.8482438337699287",
-        "recall": "0.3046944198405669",
-        "recall_weighted": "0.8694834503510531",
-        "f1": "0.3979178716020822",
-        "f1_weighted": "0.8519443804531269",
-        "accuracy": "0.8694834503510531",
-        "balanced_accuracy": "0.6336528912405697",
-        "mcc [-1,1]": "0.35328029096059405"
+        "precision": "0.570855614973262",
+        "precision_weighted": "0.8558800885690967",
+        "recall": "0.37821080602302926",
+        "f1": "0.4549813532232286",
+        "f1_weighted": "0.8604588616215478",
+        "accuracy": "0.871740220661986",
+        "balanced_accuracy": "0.6656644799795298",
+        "matthews_corrcoef": "0.3961837526110202"
+    },
+    "ensemble_bagging": {
+        "precision": "0.5938337801608579",
+        "precision_weighted": "0.8610554551327847",
+        "recall": "0.39238263950398583",
+        "f1": "0.47253333333333336",
+        "f1_weighted": "0.8650256071807572",
+        "accuracy": "0.8760030090270813",
+        "balanced_accuracy": "0.6740648410021755",
+        "matthews_corrcoef": "0.4167730477965841"
+    },
+    "ensemble_stacking": {
+        "precision": "0.5893333333333334",
+        "precision_weighted": "0.8602545300353501",
+        "recall": "0.39149689991142606",
+        "f1": "0.4704630122405535",
+        "f1_weighted": "0.8643494125661467",
+        "accuracy": "0.8752507522567703",
+        "balanced_accuracy": "0.6732568477941824",
+        "matthews_corrcoef": "0.41384520621341403"
+    },
+    "ensemble_adaboost": {
+        "precision": "0.480466472303207",
+        "precision_weighted": "0.8846414354529216",
+        "recall": "0.7298494242692648",
+        "f1": "0.5794655414908579",
+        "f1_weighted": "0.8621467770039061",
+        "accuracy": "0.850050150451354",
+        "balanced_accuracy": "0.7998597201673474",
+        "matthews_corrcoef": "0.5088518383460731"
+    },
+    "ensemble_gradientboosting": {
+        "precision": "0.6413793103448275",
+        "precision_weighted": "0.8613727220947824",
+        "recall": "0.32949512843224094",
+        "f1": "0.4353423054417788",
+        "f1_weighted": "0.8619106752899627",
+        "accuracy": "0.879012036108325",
+        "balanced_accuracy": "0.6495584302888531",
+        "matthews_corrcoef": "0.40153701009293796"
     }
 }

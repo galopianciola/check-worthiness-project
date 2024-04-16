@@ -20,14 +20,14 @@
         "matthews_corrcoef": "0.0"
     },
     "svc_tfidf": {
-        "precision": "0.475",
-        "precision_weighted": "0.8548668141378089",
-        "recall": "0.5048715677590788",
-        "f1": "0.489480463718334",
-        "f1_weighted": "0.8528115651671134",
-        "accuracy": "0.8509277833500501",
-        "balanced_accuracy": "0.7064302340036814",
-        "matthews_corrcoef": "0.4025530428270448"
+        "precision": "0.6237424547283702",
+        "precision_weighted": "0.852734881431856",
+        "recall": "0.2745792736935341",
+        "f1": "0.3813038130381304",
+        "f1_weighted": "0.8521416936703297",
+        "accuracy": "0.8738716148445336",
+        "balanced_accuracy": "0.6236340212486948",
+        "matthews_corrcoef": "0.3565867196045195"
     },
     "svc_w2vec": {
         "precision": "0.4665991902834008",
@@ -230,14 +230,14 @@
         "matthews_corrcoef": "0.05510434878563601"
     },
     "beto_fine_tuning": {
-        "precision": "0.5261299435028248",
-        "precision_weighted": "0.8826731075996351",
-        "recall": "0.6598759964570416",
-        "f1": "0.5854616895874262",
-        "f1_weighted": "0.8737705865865772",
-        "accuracy": "0.867728184553661",
-        "balanced_accuracy": "0.7809384363766149",
-        "matthews_corrcoef": "0.5125718425647104"
+        "precision": "0.5140997830802603",
+        "precision_weighted": "0.8767947478309829",
+        "recall": "0.6297608503100088",
+        "f1": "0.5660828025477707",
+        "f1_weighted": "0.8689578275935252",
+        "accuracy": "0.8633400200601805",
+        "balanced_accuracy": "0.7658078386207559",
+        "matthews_corrcoef": "0.48948826748767393"
     },
     "ensemble_voting": {
         "precision": "0.570855614973262",
@@ -288,5 +288,75 @@
         "accuracy": "0.879012036108325",
         "balanced_accuracy": "0.6495584302888531",
         "matthews_corrcoef": "0.40153701009293796"
+    },
+    "gemma": {
+        "precision": "0.20518867924528303",
+        "precision_weighted": "0.7690485943810405",
+        "recall": "0.07705934455270151",
+        "f1": "0.11204121056020606",
+        "f1_weighted": "0.7920954917175035",
+        "accuracy": "0.8271063189568706",
+        "balanced_accuracy": "0.5139203543268839",
+        "matthews_corrcoef": "0.04325770768052705"
+    },
+    "gemma_zeroshot": {
+        "precision": "0.1303294573643411",
+        "precision_weighted": "0.7450522452211749",
+        "recall": "0.4765279007971656",
+        "f1": "0.20467947498573336",
+        "f1_weighted": "0.5518283701740315",
+        "accuracy": "0.475802407221665",
+        "balanced_accuracy": "0.4761053407885346",
+        "matthews_corrcoef": "-0.03333808085178787"
+    },
+    "llama": {
+        "precision": "0.14440853264382675",
+        "precision_weighted": "0.8361469123337472",
+        "recall": "0.9893711248892826",
+        "f1": "0.2520306859205776",
+        "f1_weighted": "0.09114470003439186",
+        "accuracy": "0.16875626880641925",
+        "balanced_accuracy": "0.511408214701104",
+        "matthews_corrcoef": "0.046462881088886604"
+    },
+    "llama_zeroshot": {
+        "precision": "0.1429657794676806",
+        "precision_weighted": "0.8687051261220216",
+        "recall": "0.9991142604074402",
+        "f1": "0.250138596296707",
+        "f1_weighted": "0.05645658475305484",
+        "accuracy": "0.15208124373119358",
+        "balanced_accuracy": "0.5057642282028438",
+        "matthews_corrcoef": "0.03891173264489157"
+    },
+    "mistral": {
+        "precision": "0.6",
+        "precision_weighted": "0.8226083286916395",
+        "recall": "0.007971656333038087",
+        "f1": "0.015734265734265736",
+        "f1_weighted": "0.7954009847012599",
+        "accuracy": "0.8588264794383149",
+        "balanced_accuracy": "0.5035476800724632",
+        "matthews_corrcoef": "0.05708764630042897"
+    },
+    "mistral_zeroshot": {
+        "precision": "0.27631578947368424",
+        "precision_weighted": "0.7771623757013879",
+        "recall": "0.018600531443755536",
+        "f1": "0.034854771784232366",
+        "f1_weighted": "0.7956836345113684",
+        "accuracy": "0.8541875626880642",
+        "balanced_accuracy": "0.505283908193033",
+        "matthews_corrcoef": "0.03791945196236483"
+    },
+    "gpt_zeroshot": {
+        "precision": "0.15732118089954428",
+        "precision_weighted": "0.7825351323331137",
+        "recall": "0.7032772364924712",
+        "f1": "0.2571243523316062",
+        "f1_weighted": "0.4919646446707216",
+        "accuracy": "0.4247743229689067",
+        "balanced_accuracy": "0.5410646442430225",
+        "matthews_corrcoef": "0.05939075648334905"
     }
 }
